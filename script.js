@@ -3,7 +3,7 @@ const countdown = () => {
     const targetDate = new Date('jan 01, 2023 00:00:00').getTime();
     const present = new Date();
     const timeGap = targetDate - present;
-    console.log(timeGap)
+
 
     // find the time in days, hours, minutes and seconds
 
