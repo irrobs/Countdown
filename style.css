@@ -94,9 +94,25 @@ h3{
     font-size: 48px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 100vh) {
     main{
         flex-wrap: wrap;
+    }
+    .rocket{
+        height: 25vh;
+        margin-top: 2vh;
+    }
+    h1{
+        font-size: 30px;
+    }
+    h3{
+        font-size: 36px;
+    }
+    .topImg{
+        height: 12vh;
+    } 
+    .bottomImg{
+        height: 24vh;
     }
 }
 
